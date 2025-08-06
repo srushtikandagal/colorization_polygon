@@ -1,0 +1,8 @@
+experiments/
+wandb/
+dataset/
+venv/
+__pycache__/
+*.pth
+*.pt
+EOF

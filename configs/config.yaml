@@ -1,0 +1,28 @@
+# Model Configuration
+model:
+  n_channels: 3
+  n_classes: 3
+  bilinear: true
+  color_embedding_dim: 64
+  image_size: 128
+
+# Data Configuration
+data:
+  data_dir: "data"
+
+# Training Configuration
+training:
+  batch_size: 16
+  num_workers: 4
+  epochs: 100
+  learning_rate: 1e-4
+  min_lr: 1e-6
+  weight_decay: 1e-4
+  l1_weight: 0.5
+  ssim_weight: 0.5
+
+# Logging Configuration
+logging:
+  log_interval: 100
+  save_interval: 10
+  image_log_interval: 5 
